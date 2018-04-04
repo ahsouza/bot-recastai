@@ -2,9 +2,10 @@
   "name": "bot-recastai",
   "version": "1.0.0",
   "description": "Bot example using platform recastai in node.js",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js",
+    "prod": "node server.js",
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,32 @@
   "bugs": {
     "url": "https://github.com/ahsouza/bot-recastai/issues"
   },
-  "homepage": "https://github.com/ahsouza/bot-recastai#readme"
+  "homepage": "https://github.com/ahsouza/bot-recastai#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "recastai": "^3.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.0",
+    "eslint-config-zavatta": "^4.2.0",
+    "eslint-plugin-import": "^1.6.1",
+    "nodemon": "^1.11.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "zavatta",
+    "rules": {
+      "no-console": 0,
+      "callback-return": 0
+    }
+  }
 }
