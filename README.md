@@ -51,9 +51,6 @@ process.env.LANGUAGE = ''
 ```
 Complete o Recast.AI process.env.REQUEST_TOKENe process.env.LANGUAGEvá para a página do bot, clique no ícone de configurações (no lado direito da tela) e copie o arquivo request_token. Em seguida, defina o idioma padrão do seu bot: 'en', 'fr'... ou deixe este campo em branco para a linguagem de detecção automática
 
-Complete o Recast.AI `process.env.REQUEST_TOKEN` e `process.env.LANGUAGE`: para o arquivo de bot, click no icone de configurações (no lado direito da tela), e copie `request_token`. Em seguida, defina o idioma padrão do seu bot:
-`'en'`, `'pt'`...ou mantêm este campo vazio para a linguagem de detecção automática
-
 #### Executando localmente
 
 usando npm `npm start`
