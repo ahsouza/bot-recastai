@@ -10,12 +10,9 @@
  *
  * The Recast.AI SDK will handle the message and call your reply bot function (ie. replyMessage function)
  */
-
 const recastai = require('recastai').default
-
 // Instantiate Recast.AI SDK
 const client = new recastai(process.env.REQUEST_TOKEN)
-
 /*
  * Callback for BotConnector messages
  * Parameters:
@@ -40,7 +37,6 @@ const replyMessage = message => {
       return message.reply().then(p => p.body)
     })
 }
-
 /*
  * Main bot function
  * Parameters are:
