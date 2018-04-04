@@ -49,7 +49,7 @@ process.env.LANGUAGE = ''
 // Write your own configuration here:
 // ...
 ```
-Complete o Recast.AI process.env.REQUEST_TOKENe process.env.LANGUAGEvá para a página do bot, clique no ícone de configurações (no lado direito da tela) e copie o arquivo request_token. Em seguida, defina o idioma padrão do seu bot: 'en', 'fr'... ou deixe este campo em branco para a linguagem de detecção automática
+Complete o Recast.AI process.env.REQUEST_TOKEN e process.env.LANGUAGE. vá para a página do bot, clique no ícone de configurações (no lado direito da tela) e copie o arquivo request_token. Em seguida, defina o idioma padrão do seu bot: 'en', 'fr'... ou deixe este campo em vazio para a linguagem de detecção automática.
 
 #### Executando localmente
 
@@ -70,9 +70,9 @@ Receiving messages | [The Recast.AI SDK](https://github.com/RecastAI/SDK-NodeJS/
 Sending messages | [The Recast.AI SDK](https://github.com/RecastAI/SDK-NodeJS/wiki) - connect
 Rich messaging | See the different [payload message](https://man.recast.ai)
 
-#### About your config file
+#### Sobre o arquivo config
 
-O arquivo `config.js` nunca será enviado ao seu repositório, por motivos de segurança com intenção de manter sua configuração privada.
+O arquivo `config.js` nunca será enviado ao seu repositório. Por motivos de segurança com intenção de manter sua configuração privada.
 
 ## More
 
@@ -81,11 +81,7 @@ You can follow us on Twitter at [@recastai](https://twitter.com/recastai) for up
 
 ## Getting started with Recast.AI
 
-We build products to help enterprises and developers have a better understanding of user inputs.
-
--   **NLP API**: a unique API for text processing, and augmented training.
--   **Bot Building Tools**: all you need to create smart bots powered by Recast.AI's NLP API. Design even the most complex conversation flow, use all rich messaging formats and connect to external APIs and services.
--   **Bot Connector API**: standardizes the messaging format across all channels, letting you connect your bots to any channel in minutes.
+Criamos produtos para ajudar empresas e desenvolvedores a entender melhor as entradas do usuário.
 
 Learn more about:
 
