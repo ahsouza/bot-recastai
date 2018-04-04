@@ -29,7 +29,7 @@ Crie uma conta na plataforma [Recast.AI](https://recast.ai) e siga o [tutorial](
 
 #### Instalação
 
-`git clone https://github.com/ahsouza/bot-recastai.git ex-bot && cd ex-bot`
+`git clone https://github.com/ahsouza/bot-recastai.git bot-recastai && cd bot-recastai`
 
 usando npm
 `npm install`
