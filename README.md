@@ -11,21 +11,20 @@ Um kit inicial para o desenvolvimento de bots usando a plataforma [Recast.AI](ht
 
 > **Nota:** Projeto está atualmente em versão beta e pode ser modificado a qualquer momento..
 
-## Requirements
+## Requerimentos
 
 #### Node version
 
-Nós recomendamos a versão `node v6
+Recomendado a versão `node v6`
 
 
 #### Recast.AI conta
 
- Recast.AI e siga este rápido tutorial para criar seu primeiro bot na interface.
+ Siga este rápido tutorial para criar seu primeiro bot na interface.
 
 Crie uma conta na plataforma [Recast.AI](https://recast.ai) e siga o [tutorial](https://recast.ai/gettingstarted) para criar seu primeiro bot com interface.
 
 ## Uso
-
 
 #### Instalação
 
@@ -38,9 +37,9 @@ ou yarn
 `yarn`
 
 
-#### Criando o arquivo de configuração
+#### Alterando o arquivo de configuração
 
- Crie um arquivo com o nome de `config.js` e programe a seguinte estrutura básica de configuração:
+ Altere o arquivo com o nome de `config.js` e programe a seguinte estrutura básica de configuração:
 
 ```javascript
 process.env.PORT = '5000'
